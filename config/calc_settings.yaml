@@ -1,0 +1,11 @@
+# Default electronic-structure settings for the practice project.
+# Scripts in this repository read these values; change them here, not in code.
+
+program: orca
+method: B3LYP-D3BJ
+basis: 6-31G(d)
+charge: 0
+multiplicity: 1
+solvent: none
+max_scf_cycles: 200
+convergence: tight
